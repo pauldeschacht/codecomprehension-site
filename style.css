@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.survey.header1 {
+    @apply w-full;
+    @apply block;
+    @apply font-medium;
+    @apply text-gray-700;
+    @apply mb-2;
+    @apply text-center;
+}
+.survey.box {
+    @apply overflow-hidden;
+}
+.survey.header {
+    @apply block;
+    @apply text-sm;
+    @apply font-medium;
+    @apply text-gray-700;
+    @apply mb-3;
+}
